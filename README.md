@@ -16,9 +16,10 @@ Has un request GET a la URL https://www.escuelaing.edu.co/es/ y verifica el body
 Ahora has otro request GET al recurso https://dummyjson.com/todos, nuevamente verifica el body en varias opciones.
 
 Responde las siguientes preguntas:
-- ¿Qué pasa si no envío el método correcto?
+- ¿Qué pasa si no envío el método correcto? Si se ingresa un metodo incorrecto, el servidor responde con un error 400 de Bad Request que significa que no puede procesar o reconocer la solicitud.
 - ¿Qué pasa si al body response HTML lo fuerzo a leerse como JSON?
-- ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web?
+
+- ¿Por qué el preview de HTML no se ve igual a cuando accedo a la URL en un navegador web? El preview de HTML proporcionado por herramientas como Postman puede no representar completamente la experiencia de visualización en un navegador web real. Esto puede deberse a diferencias en el procesamiento y renderizado de HTML entre la vista previa en Postman y un navegador web real.
 - ¿Qué pasa si le envías un body a una solicitud GET?
 
 Como parte del laboratorio en casa (ya que en los equipos del laboratorio está bloqueado) has los dos request anteriores pero ahora usando la herramienta Telnet sobre el puerto 80.
